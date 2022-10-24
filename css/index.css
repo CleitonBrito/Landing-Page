@@ -13,7 +13,7 @@ body {
 }
 
 .painel {
-    height: 80vh;
+    height: calc(80vh - 10px);
     box-shadow: 3px 2px 15px 8px #428ac2;
 }
 

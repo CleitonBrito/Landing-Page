@@ -14,7 +14,7 @@ body {
 
 .painel {
     height: 80vh;
-    box-shadow: 3px 2px 15px 8px #457ca7;
+    box-shadow: 3px 2px 15px 8px #428ac2;
 }
 
 ul {
@@ -35,7 +35,13 @@ li {
     color: #000;
 }
 
+a {
+    text-decoration: none!important;
+}
+
 li:hover {
     cursor: pointer;
-    background-color: #fff;
+    color: #fff;
+    background-color: #3179b1;
+    box-shadow: inset -1px -10px 10px 3px #0b2a42;
 }

@@ -10,6 +10,7 @@ body {
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .painel {
@@ -43,4 +44,10 @@ li:hover {
     color: #fff;
     background-color: #3179b1;
     box-shadow: inset -1px -10px 10px 3px #0b2a42;
+}
+
+@media (orientation: landscape) {
+    .container-fluid {
+        height: 150vh;
+    }
 }

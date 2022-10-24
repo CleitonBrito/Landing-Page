@@ -46,8 +46,8 @@ li:hover {
     box-shadow: inset -1px -10px 10px 3px #0b2a42;
 }
 
-@media (orientation: landscape) {
-    .container-fluid {
+@media (orientation: landscape) and (max-width: 900px) {
+    html, body, .container-fluid {
         height: 150vh;
     }
 }
